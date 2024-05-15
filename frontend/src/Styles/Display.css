@@ -1,12 +1,12 @@
 body {
-  background-color: #f0f0f0; /* Light gray background */
+  background-color: #f0f0f0; 
 }
 
 .display {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #007bff; /* Button color */
+  background-color: #007bff; 
   padding: 20px;
   border-radius: 10px;
 }
@@ -29,16 +29,16 @@ input {
   font-size: 18px;
   padding-left: 10px;
   margin: 5px;
-  border: 1px solid #666; /* Darker border color */
+  border: 1px solid #666;
   border-radius: 5px;
-  background-color: #e0e0e0; /* Darker background color */
+  background-color: #e0e0e0; 
 }
 
 button {
   width: 320px;
   height: 40px;
   margin-top: 7px;
-  margin-bottom: 5px; /* Increased gap between buttons */
+  margin-bottom: 5px; 
   font-size: 18px;
   background-color: #007bff;
   color: #fff;
@@ -69,7 +69,7 @@ button:hover {
   border-radius: 10px;
   font-family: 'Arial', sans-serif;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: #fff; /* White background */
+  background-color: #fff;
 }
 
 .list h3 {
@@ -85,34 +85,34 @@ button:hover {
 .list input {
   width: 250px;
 }.list button {
-  margin-right: 10px; /* Add margin between the buttons */
+  margin-right: 10px;
 }
 
-/* For screens smaller than 768px (e.g., mobile devices) */
+
 @media only screen and (max-width: 768px) {
   .display {
-    padding: 10px; /* Adjust padding for mobile */
+    padding: 10px;
   }
 
   input {
-    width: 90%; /* Adjust input width for mobile */
-    font-size: 16px; /* Adjust font size for mobile */
+    width: 90%; 
+    font-size: 16px; 
   }
 
   button {
-    width: 90%; /* Adjust button width for mobile */
-    font-size: 16px; /* Adjust font size for mobile */
-    margin-top: 10px; /* Adjust margin for mobile */
-    margin-bottom: 10px; /* Adjust margin for mobile */
+    width: 90%; 
+    font-size: 16px; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
   }
 
   .list {
-    width: 90%; /* Adjust width for mobile */
-    max-width: 90%; /* Adjust maximum width for mobile */
+    width: 90%;
+    max-width: 90%; 
   }
 
   .list input {
-    width: 80%; /* Adjust input width for mobile */
+    width: 80%; 
     font-size: 16px; /* Adjust font size for mobile */
   }
 }
