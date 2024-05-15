@@ -1,5 +1,5 @@
 .home {
-    background-color: #f8f9fa; /* Change to a suitable background color */
+    background-color: #f8f9fa; 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,19 +19,19 @@
     font-size: 70px;
     font-weight: 500;
     color: #dc3545;
-    margin-bottom: 10px; /* Add some space below the span */
+    margin-bottom: 10px; 
   }
   
   .left button {
-    width: 300px; /* Increase button width */
-    height: 60px; /* Increase button height */
-    font-size: 24px; /* Decrease font size for better fit */
+    width: 300px; 
+    height: 60px; 
+    font-size: 24px; 
     cursor: pointer;
     background-color: #007bff;
     color: white;
     border-radius: 50px;
     transition: all 0.3s ease;
-    margin-top: 20px; /* Add some margin from the title */
+    margin-top: 20px; 
   }
   
   .left button:hover {
@@ -39,9 +39,9 @@
   }
   
   .left h1 {
-    font-size: 32px; /* Decrease font size for better fit */
-    margin-top: 20px; /* Add some margin from the welcome message */
-    margin-bottom: 20px; /* Add some space below the welcome message */
+    font-size: 32px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
     color: #333; /* Adjust text color */
   }
   
@@ -51,18 +51,17 @@
   }
   
   .image {
-    padding: 20px; /* Add padding around the image */
+    padding: 20px;
   }
   
   .image img {
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    max-width: 100%;
     height: auto;
   }
-  
-/* For screens smaller than 768px (e.g., mobile devices) */
+
 @media only screen and (max-width: 768px) {
     .home {
-      padding: 10px; /* Adjust padding for mobile */
+      padding: 10px; 
     }
   
     .left span {
@@ -71,15 +70,15 @@
     }
   
     .left button {
-      max-width: 200px; /* Adjust maximum width for mobile */
-      height: 60px; /* Adjust height for mobile */
-      font-size: 20px; /* Adjust font size for mobile */
+      max-width: 200px; 
+      height: 60px;
+      font-size: 20px; 
     }
   
     .left h1 {
-      font-size: 40px; /* Adjust font size for mobile */
-      margin-top: 15px; /* Adjust margin for mobile */
-      margin-bottom: 15px; /* Adjust margin for mobile */
+      font-size: 40px; 
+      margin-top: 15px;
+      margin-bottom: 15px;
     }
   
     .image img {
